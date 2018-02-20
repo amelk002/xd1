@@ -1,0 +1,5 @@
+echo A #echo B          # only print A
+echo A #&& echo B       # only print A
+echo A && echo B #&& echo C # only print A and B
+echo A#; echo B         # only print A
+echo A #|| echo B       # only print A
